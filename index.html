@@ -7,32 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Menu -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Our Story</a></li>
-                <li><a href="rsvp.html">RSVP</a></li>
-                <li><a href="gallery.html">Photo Gallery</a></li>
-                <li><a href="wishlist.html">Wishing List</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Background Image -->
+    <div class="background-image"></div>
 
-    <!-- Main Section with Countdown -->
-    <section class="countdown-section">
-        <h1>We're Getting Married!</h1>
-        <p>Countdown to our special day:</p>
-        <div id="countdown">
-            <span id="days">00</span> Days 
-            <span id="hours">00</span> Hours 
-            <span id="minutes">00</span> Minutes 
-            <span id="seconds">00</span> Seconds
-        </div>
-    </section>
+    <!-- Central Container -->
+    <div class="container">
+        <!-- Top Menu Bar -->
+        <header class="menu-bar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="rsvp.html">RSVP</a></li>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="wishlist.html">Wishing List</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- JavaScript for the Countdown -->
+        <!-- Main Content Area -->
+        <section class="main-content">
+            <h1>Jane & John</h1>
+            <p>Countdown to our special day:</p>
+            <div id="countdown">
+                <span id="days">00</span> Days 
+                <span id="hours">00</span> Hours 
+                <span id="minutes">00</span> Minutes 
+                <span id="seconds">00</span> Seconds
+            </div>
+        </section>
+
+        <!-- Bottom Bar -->
+        <footer class="bottom-bar">
+            <p>Save the Date!</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Countdown -->
     <script src="script.js"></script>
 </body>
 </html>
